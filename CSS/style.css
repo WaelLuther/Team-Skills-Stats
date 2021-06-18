@@ -1,0 +1,342 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.8;
+}
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+header {
+    background-color: white;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0;
+}
+
+header .container strong {
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 1%;
+}
+
+header .container ul {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2%;
+}
+
+header .container ul li {
+    list-style-type: none;
+    justify-items: end;
+    text-transform: capitalize;
+    margin-left: 8%;
+    font-family: 'Open Sans', sans-serif;
+}
+@media (max-width: 767px) {
+    header .container strong {
+        font-size: 16px;
+    }
+    header .container ul li {
+        font-size: 14px;
+        margin-left: 2%;
+    }
+}
+section article {
+    background-color: #E6E6E6;
+    padding: 3% 0;
+    
+}
+section article .container b {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+section article .container b span {
+    color: #16AFF4;
+}
+section article .container p {
+    font-family: 'Open Sans', sans-serif;
+}
+@media (max-width: 767px) {
+    section article .container b {
+        font-size: 22px;
+        justify-content: flex-start;
+    }
+    section article .container p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+section nav {
+    padding: 5% 0;
+}
+
+section nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+section nav .container div {
+    width: 30%;
+}
+
+section nav .container div img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 28%;
+}
+
+section nav .container div h2 {
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+section nav .container div p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    section .nav1 .container {
+        flex-direction: column;
+    }
+    section .nav1 .container div {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5%;
+        width: 100%;
+    }
+    section .nav1 .container div img {
+        margin-left: 0;
+        width: 100px;
+    }
+    section .nav1 .container div h2 {
+        display: none;
+    }
+    section .nav1 .container div p {
+        margin-left: 6%;
+        font-size: 14px;
+    }
+}
+.sec2 article {
+    background-color: #E6E6E6;
+    padding: 3% 0;
+    
+}
+
+.sec2 article .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2 article .container img {
+    margin-right: 2%;
+    width: 30%;
+}
+@media (max-width: 1118px) {
+    .sec2 article .container img {
+        display: none;
+    }
+}
+.sec2 article .container div {
+    padding: 3%;
+}
+
+.sec2 article .container div h2 {
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.sec2 article .container div p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+
+.sec2 nav {
+    padding: 5% 0;
+}
+
+.sec2 nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2 nav .container div {
+    width: 30%;
+    padding: 3%;
+    color: white;
+    background-color: #227093;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sec2 nav .container div:first-of-type{
+    background-color: #B3393A;
+}
+
+.sec2 nav .container div:last-of-type{
+    background-color: #53A693
+}
+
+.sec2 nav .container div h1 {
+    font-size: 50px;
+}
+
+.sec2 nav .container div h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+}
+@media (max-width: 767px) {
+    .sec2 nav .container {
+        padding-left: 21%;
+        flex-direction: column;
+    }
+    .sec2 nav .container div {
+        width: 50%;
+        margin-top: 3%;;
+    }
+    .sec2 nav .container div h1 {
+        font-size: 26px;
+        line-height: 0;
+    }
+}
+.sec3 {
+    background-color: #E6E6E6;
+}
+
+.sec3 .container {
+    padding: 1% 0;
+}
+
+.sec3 .container h2 {
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 1% 0;
+    text-align: center;
+}
+
+.sec3 .container > div {
+    background-color: white;
+    width: 94%;
+    margin: 1% 0;
+    transform: translate(7%,0);
+}
+
+.sec3 .container div div {
+    background-color: #16AFF4;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    width: 100%;
+    padding: 6px;
+    color: white;
+    text-align: end;
+}
+
+.sec3 .container div:nth-of-type(1) div {
+    width: 60%;
+}
+
+.sec3 .container div:nth-of-type(2) div {
+    width: 70%;
+}
+
+.sec3 .container div:nth-of-type(3) div {
+    width: 80%;
+}
+
+.sec3 .container div:nth-of-type(4) div {
+    width: 65%;
+}
+
+.sec3 .container div:nth-of-type(5) div {
+    width: 90%;
+}
+
+.sec3 .container  div:nth-of-type(1) div::before {
+    content: 'HTML';
+    position: absolute;
+    left: -50px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.sec3 .container  div:nth-of-type(2) div::before {
+    content: 'CSS';
+    position: absolute;
+    left: -38px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+.sec3 .container  div:nth-of-type(3) div::before {
+    content: 'JS';
+    position: absolute;
+    left: -25px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+.sec3 .container  div:nth-of-type(4) div::before {
+    content: 'PHP';
+    position: absolute;
+    left: -40px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+.sec3 .container  div:nth-of-type(5) div::before {
+    content: 'Python';
+    position: absolute;
+    left: -60px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #222;
+    padding: 1% 0;
+}
+
+footer .container {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+
+footer .container div span {
+    color: #16AFF4;
+}
+@media (max-width: 767px) {
+    footer .container { 
+        font-size: 14px;
+        font-weight: 400;
+        display: block;
+    }
+}
